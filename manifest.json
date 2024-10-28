@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Re-Affirm",
+  "description": "Daily Affirmations just one click away. As you continue on this journey called 'Life' it is important to re-affirm that you are worthy and ready for every opportunity you are given.",
   "version": "1.0",
   "action": {
     "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": "affirmation-modified.png"
   }
 }
