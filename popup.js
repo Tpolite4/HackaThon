@@ -8,9 +8,7 @@ quoteButton.addEventListener('click', () => {
   display.textContent = randomQuote(affirmations);
 });
 
-quoteButton.style.color = '#C8A2C8';
-quoteButton.style.backgroundColor = 'blue';
-quoteButton.style.borderRadius = '20px';
+
 // body.style.backgroundColor = 'black';
 
 // const newDiv = document.createElsement('div');

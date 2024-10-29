@@ -1,7 +1,53 @@
 body {
-  background-color:#92E1ED;
+  background-color: #92e1ed;
 }
 
 .reaffirmcolor {
   color: azure;
+  text-shadow: gray 1px 0 10px;
+}
+
+#quoteButton {
+  color: #dc92ed;
+  background-color: azure;
+  border-radius: 20px;
+  font-size: 15px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 5px 5px rgba(0, 0, 0, 0.2); */
+  cursor: pointer;
+  transition: transform 0.3 ease;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+#quoteButton:before,
+#quoteButton:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: inherit;
+  border-radius: 50%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+
+  z-index: 0;
+  pointer-events: none;
+}
+
+#quoteButton::after {
+  top: -25px;
+  right: -40px;
+}
+#quoteButton::before {
+  top: -25px;
+  left: -40px;
+}
+
+#quoteButton:hover {
+  transform: scale(1.05);
+}
+
+#quote {
+  color: azure;
+  text-shadow: gray 1px 0 10px;
 }
